@@ -1,0 +1,32 @@
+# <type>[optional scope]: <subject>
+##### Subject 50 characters ################# -> |
+
+# Body Message
+######## Body 72 characters ####################################### -> |
+
+# Issue Tracker Number or URL
+
+# --- COMMIT END ---
+# Type can be
+#   build    : dependency or system level changes
+#   ci       : ci file and script changes
+#   chore    : updating grunt tasks etc
+#              no production code change
+#   docs     : change to documentation
+#   feat     : new feature
+#   fix      : bug fix
+#   pref     : preformance improve
+#   refactor : refactoring production code
+#   revert   : commit revert
+#   style    : formatting, missing semi colons, etc; no code change
+#   test     : adding or refactoring tests
+#              no productin code change
+# ------------------
+# Remember me ~
+#   Capitalize the subject line
+#   Use the imperative mood in the subject line
+#   Do not end the subject line with a period
+#   Separate subject from body with a blank line
+#   Use the body to explain what and why vs. how
+#   Can use multiple lines with "-" for bullet points in body
+# ------------------
