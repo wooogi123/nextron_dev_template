@@ -14,7 +14,7 @@ export default (windowName: string, options: BrowserWindowConstructorOptions): B
     height: options.height,
   };
   let state = {};
-  const win;
+  let win; // eslint-disable-line
 
   const restore = () => store.get(key, defaultSize);
 
